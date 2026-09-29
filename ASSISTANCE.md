@@ -9,3 +9,5 @@ Date - What for - Tool - What it did - What I did / how I checked it
 25/09/2026 - Choosing a dataset - Claude - Suggested a list of possible UCI datasets - Picked AI4I myself and checked the licence and details on the UCI page
 
 26/09/2026 - JupyterLab / notebook setup - Claude - Explained how to create the notebook, add and run cells (code and markdown) and the relative file path for loading the data - Wrote and ran all cells in 01_data_audit.ipynb myself
+
+29/09/2026 - Fixing a NameError in 01_data_audit.ipynb - Claude - Explained that "name 'df' is not defined" happened because I reopened JupyterLab and ran df.head() without first running the import and load cells, so the kernel had no df in memory. Suggested running the cells in order or using Restart Kernel and Run All Cells - Ran the cells above in order myself and confirmed df.head() and df.info() worked

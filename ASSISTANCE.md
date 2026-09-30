@@ -17,3 +17,5 @@ Date - What for - Tool - What it did - What I did / how I checked it
 29/09/2026 - Section 3 of the audit (missing values and duplicates) - Claude - Taught me how to find the missing-value, duplicate and ID checks, and pointed out that df.duplicated() can't find duplicates because UDI is unique, suggesting I also check with the ID columns dropped - Wrote the code and ran the cells myself, checked the outputs, and updated my conclusions to match the results
 
 29/09/2026 - Section 6 of the audit (outliers) - Claude - Gave me the code for the summary statistics, the box plots (including plt.tight_layout() to stop the subplots overlapping), the IQR rule for counting outliers, and the check of failure rate for rows with and without outliers. Also outlined the conclusions and decision. - Ran the cells myself, checked the outputs, and wrote the conclusions from my own results
+
+30/09/2026 - Section 8 Leakage register - Claude - Claude suggested the list of risks and wrote the table - I checked them against the data and the lectures

@@ -19,3 +19,5 @@ Date - What for - Tool - What it did - What I did / how I checked it
 29/09/2026 - Section 6 of the audit (outliers) - Claude - Gave me the code for the summary statistics, the box plots (including plt.tight_layout() to stop the subplots overlapping), the IQR rule for counting outliers, and the check of failure rate for rows with and without outliers. Also outlined the conclusions and decision. - Ran the cells myself, checked the outputs, and wrote the conclusions from my own results
 
 30/09/2026 - Section 8 Leakage register - Claude - Claude suggested the list of risks and wrote the table - I checked them against the data and the lectures
+
+30/09/2026 - Section 9 of the audit (engineered features) - Claude - Explained how to work out the power feature from torque and rotational speed: power (W) = torque (Nm) × angular speed (rad/s), where angular speed = rpm × 2π / 60, to convert rpm to radians per second. Also suggested the temperature difference feature - Checked the formula and units myself, wrote the code and ran it, and wrote the reasoning for why the features make sense

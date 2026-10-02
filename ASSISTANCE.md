@@ -52,6 +52,8 @@ Date - Area - What Claude provided - My own work and verification
 
 02/10/2026 - Train/test split (02, Section 4) - Code for the stratified split and the explanation of the design - Checked the 8,000/2,000 split and the 3.4% failure rate in both sets
 
+02/10/2026 - Notebook 02, Section 5 (preprocessing) - Code for the ColumnTransformer and the design explanation - Checked the output has 8 columns with the expected names, and checked the choices against Week 3 slides
+
 ## External code
 
 No code copied from external sources. Methods follow the CT4101 lecture slides and the scikit-learn and pandas documentation.

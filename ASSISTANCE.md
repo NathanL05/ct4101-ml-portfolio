@@ -56,6 +56,8 @@ Date - Area - What Claude provided - My own work and verification
 
 13/10/2026 - Notebook 02, Section 7 (baseline diagnostics) - explained cross_val_predict, predict_proba and how to read the confusion matrix - Ran it, checked the confusion matrix counts add up to the 8,000 training rows (271 failures) and that the medians (0.007 and 0.211) match my output, and can explain each line
 
+13/10/2026 - Notebook 02, Section 8 (coefficient interpretation and stability) - AI was also used to explain odds ratios, per-standard-deviation interpretation and correlated features - Checked the coefficients, odds ratios and standard deviations against my output, checked the interpretation against Week 5 slides, and can explain each conclusion
+
 ## External code
 
 No code copied from external sources. Methods follow the CT4101 lecture slides and the scikit-learn and pandas documentation.

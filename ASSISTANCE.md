@@ -54,6 +54,8 @@ Date - Area - What Claude provided - My own work and verification
 
 02/10/2026 - Notebook 02, Section 5 (preprocessing) - Code for the ColumnTransformer and the design explanation - Checked the output has 8 columns with the expected names, and checked the choices against Week 3 slides
 
+13/10/2026 - Notebook 02, Section 7 (baseline diagnostics) - explained cross_val_predict, predict_proba and how to read the confusion matrix - Ran it, checked the confusion matrix counts add up to the 8,000 training rows (271 failures) and that the medians (0.007 and 0.211) match my output, and can explain each line
+
 ## External code
 
 No code copied from external sources. Methods follow the CT4101 lecture slides and the scikit-learn and pandas documentation.

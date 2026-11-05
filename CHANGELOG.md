@@ -1,5 +1,8 @@
 # Changelog
 
+## 05/11/2026
+- Added `03_models_and_evaluation.ipynb`: kNN, Decision Tree and Random Forest tuned with cross-validation, precision-recall curves, a confusion matrix, error analysis by failure mode and a draft conclusion (Milestone 3).
+
 ## 13/10/2026
 - Added baseline diagnostics, coefficient interpretation, an experiment log and a summary to `02_baseline.ipynb` (Week 5).
 

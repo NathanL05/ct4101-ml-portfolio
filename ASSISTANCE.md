@@ -66,6 +66,8 @@ Date - Area - What Claude provided - My own work and verification
 
 05/11/2026 - Notebook 03, Section 4 (Random Forest) - Used AI to help me understand the grid search, the evaluation code and the draft findings. Ran it, checked the results against my output, and can explain how a forest differs from a single tree and why the F2 gain is modest.
 
+05/11/2026 - Notebook 03, Section 5 (visualisations) - Used AI to help me understand how out-of-fold precision-recall curves and the confusion matrix are produced, and to explain the draft findings. Ran it, checked that the confusion matrix sums to the 8,000 training rows and matches my output, and can explain why precision-recall curves suit a 3.4% positive class.
+
 ## External code
 
 No code copied from external sources. Methods follow the CT4101 lecture slides and the scikit-learn and pandas documentation.

@@ -28,6 +28,7 @@ Open the notebooks in `notebooks/` in order and run each one with **Kernel → R
 
 1. `01_data_audit.ipynb` – data audit, leakage register and candidate features
 2. `02_baseline.ipynb` – evaluation protocol, train/test split, preprocessing pipeline and baselines
+3. `03_models_and_evaluation.ipynb` – kNN, Decision Tree and Random Forest compared under the same cross-validation, with visualisations, error analysis and a draft conclusion
 
 Notebook 02 writes the cross-validation results to `reports/experiment_log.csv`. All randomness uses seed 42.
 

@@ -64,6 +64,8 @@ Date - Area - What Claude provided - My own work and verification
 
 05/11/2026 - Notebook 03, Section 3 (Decision Tree) - Used AI to help me understand the grid search, the tuned settings and the evaluation code. Ran it, checked the results against my output, and can explain the tuned settings and why the scores are close across the top settings.
 
+05/11/2026 - Notebook 03, Section 4 (Random Forest) - Used AI to help me understand the grid search, the evaluation code and the draft findings. Ran it, checked the results against my output, and can explain how a forest differs from a single tree and why the F2 gain is modest.
+
 ## External code
 
 No code copied from external sources. Methods follow the CT4101 lecture slides and the scikit-learn and pandas documentation.

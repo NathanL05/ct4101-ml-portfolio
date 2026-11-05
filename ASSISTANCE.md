@@ -60,6 +60,8 @@ Date - Area - What Claude provided - My own work and verification
 
 05/11/2026 - Notebook 03, Section 1 (setup) - Asked AI to show me how to structure the shared setup and evaluate() function and explain how each part works (stratified split, preprocessing pipeline, cross-validation, scoring metrics). Ran the code and checked that the split and baseline scores match notebook 02.
 
+05/11/2026 - Notebook 03, Section 2 (kNN) - Wrote the grid search and evaluation code myself, with AI explaining how grid search and the kNN parameters work and how to interpret the results. Ran it, checked the results against my output, and can explain why k = 1 was selected and its limitations.
+
 ## External code
 
 No code copied from external sources. Methods follow the CT4101 lecture slides and the scikit-learn and pandas documentation.

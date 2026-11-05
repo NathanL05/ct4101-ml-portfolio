@@ -62,6 +62,8 @@ Date - Area - What Claude provided - My own work and verification
 
 05/11/2026 - Notebook 03, Section 2 (kNN) - Wrote the grid search and evaluation code myself, with AI explaining how grid search and the kNN parameters work and how to interpret the results. Ran it, checked the results against my output, and can explain why k = 1 was selected and its limitations.
 
+05/11/2026 - Notebook 03, Section 3 (Decision Tree) - Used AI to help me understand the grid search, the tuned settings and the evaluation code. Ran it, checked the results against my output, and can explain the tuned settings and why the scores are close across the top settings.
+
 ## External code
 
 No code copied from external sources. Methods follow the CT4101 lecture slides and the scikit-learn and pandas documentation.

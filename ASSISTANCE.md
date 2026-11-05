@@ -58,6 +58,8 @@ Date - Area - What Claude provided - My own work and verification
 
 13/10/2026 - Notebook 02, Section 8 (coefficient interpretation and stability) - AI was also used to explain odds ratios, per-standard-deviation interpretation and correlated features - Checked the coefficients, odds ratios and standard deviations against my output, checked the interpretation against Week 5 slides, and can explain each conclusion
 
+05/11/2026 - Notebook 03, Section 1 (setup) - Asked AI to show me how to structure the shared setup and evaluate() function and explain how each part works (stratified split, preprocessing pipeline, cross-validation, scoring metrics). Ran the code and checked that the split and baseline scores match notebook 02.
+
 ## External code
 
 No code copied from external sources. Methods follow the CT4101 lecture slides and the scikit-learn and pandas documentation.

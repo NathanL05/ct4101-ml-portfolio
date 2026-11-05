@@ -12,4 +12,4 @@
 - Completed the data audit in `01_data_audit.ipynb`.
 
 ## 25/09/2026
-- Submitted the project proposal; set up the repository, environment and dataset.
+- Submitted the project proposal and set up the repository, environment and dataset.

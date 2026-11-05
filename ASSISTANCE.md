@@ -70,6 +70,8 @@ Date - Area - What Claude provided - My own work and verification
 
 05/11/2026 - Notebook 03, Section 6 (error analysis) - Used AI to help me understand how errors are labelled, how the failure mode table and feature comparison work, and what the draft findings mean. Ran it, checked that the outcome counts match the confusion matrix and my output, and can explain why tool wear failures are missed.
 
+05/11/2026 - Notebook 03, Section 7 (model settings and draft conclusion) - Used AI to help me build the settings table and to draft and explain the conclusion. Ran it, checked each claim against my results tables, edited the wording, and can explain the limitations and next steps.
+
 ## External code
 
 No code copied from external sources. Methods follow the CT4101 lecture slides and the scikit-learn and pandas documentation.

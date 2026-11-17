@@ -5,6 +5,7 @@
 - Shortened the findings in notebooks 03 and 04 and added training-only data checks.
 - Updated notebooks 01 and 02: replaced outdated Milestone 3 references, removed the unkept `RobustScaler` and experiment-log promises, and added the rotational speed effect to the coefficient findings.
 - Added notebook 04 and the notebook 03 run time to the README.
+- Added permutation importance, the final test-set evaluation (F2 0.833), test-set error analysis, a per-type fairness check and responsible-use notes to `04_final_model.ipynb`.
 
 ## 05/11/2026
 - Added `03_models_and_evaluation.ipynb`: kNN, Decision Tree and Random Forest tuned with cross-validation, precision-recall curves, a confusion matrix, error analysis by failure mode and a draft conclusion (Milestone 3).

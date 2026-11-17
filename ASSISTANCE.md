@@ -74,6 +74,8 @@ Date - Area - What Claude provided - My own work and verification
 
 17/11/2026 - Notebook 04, Sections 1–2 (setup and threshold comparison) - Code for the setup and the out-of-fold threshold comparison, and draft findings - Ran it, checked the results against my own output, and edited the findings to match. I can explain why the threshold is chosen on training data (out-of-fold predictions, so the test set is not used for tuning) and why 0.5 was kept.
 
+17/11/2026 - Notebook 04, Section 3 (engineered features) - Code for the feature comparison and the threshold re-check, a check of the power and heat dissipation rules in the data, and draft findings - Ran it, checked the results against my own output, and edited the findings to match. I can explain why the engineered features improve the model and why that is also a limitation: they encode the rules that define the failure labels, so part of the gain comes from the labels themselves rather than from new information.
+
 ## External code
 
 No code copied from external sources. Methods follow the CT4101 lecture slides and the scikit-learn and pandas documentation.

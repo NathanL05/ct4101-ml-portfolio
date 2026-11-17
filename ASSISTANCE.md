@@ -4,7 +4,7 @@ This file records all outside help used in this project, as required by the CT41
 
 ## How I used AI
 
-I used Claude (Anthropic) as a tutor and coding assistant. It explained concepts, suggested approaches, and provided code and draft text for some sections. For everything it provided, I ran the code myself and checked every output against the data, checked methods and decisions against the CT4101 lecture slides, edited explanations so they match my own results, and made sure I can explain every line of code and every decision in this repository. Final decisions about the dataset, features, evaluation design and conclusions are my own.
+I used Claude (Anthropic) as a tutor and coding assistant. It explained concepts, suggested approaches, and provided code and draft text for some sections; each entry below states which. For everything it provided, I ran the code myself, checked outputs against the data and the CT4101 lecture slides, and edited explanations so they match my own results. I made the final decisions about the dataset, features, evaluation design and conclusions, and I have tried to make sure I can explain every line of code and every decision in this repository.
 
 ## Generative AI / coding assistants
 
@@ -12,9 +12,9 @@ Date - Area - What Claude provided - My own work and verification
 
 25/09/2026 - Choosing a dataset - A list of candidate UCI datasets - Chose AI4I 2020 myself and checked its licence, size and documentation on the UCI page
 
-25/09/2026 - Project plan - A step-by-step project plan (kept outside this repository) - Use it as a guide only; I question and justify each step myself
+25/09/2026 - Project plan - A step-by-step project plan (kept outside this repository) - Followed it as a guide for the order of work; I reviewed and justified each step myself
 
-25/09/2026 - Reference project - A complete example version of the project, kept outside this repository and not submitted - Used only as a reference; nothing from it is copied into this repository
+25/09/2026 - Reference solution - A reference solution to the project, kept outside this repository and not submitted - Used for reference only. No code, text or files from it were copied into this repository, and each section of my work was run and checked against my own data.
 
 25/09/2026 - Proposal (Milestone 1) - An example proposal, explanation of the brief's requirements, and a review of my draft - Wrote and formatted the submitted proposal myself
 
@@ -46,7 +46,7 @@ Date - Area - What Claude provided - My own work and verification
 
 02/10/2026 - Notebook 02, Section 1 - Code for loading the data, dropping ID and failure-type columns, and separating X and y - Checked X has 6 columns and no ID, failure-type or target columns
 
-02/10/2026 - Week 4 review and evaluation protocol (02, Sections 2–3) - A comparison of my plan with the Week 4 lecture, a recommendation of F2 as the primary metric, the protocol table and the configuration cell - Identified the Week 4 changes needed myself, then checked the protocol against slides 18, 23, 26, 44 and 45 and confirmed the versions match requirements.txt
+02/10/2026 - Week 4 review and evaluation protocol (02, Sections 2–3) - A comparison of my plan with the Week 4 lecture, a recommendation of F2 as the primary metric, the protocol table and the configuration cell - Identified the Week 4 changes needed myself, then checked the protocol against slides 18, 23, 26, 44 and 45 and confirmed the versions match requirements.txt. I accepted F2 after checking it against the lecture and my 3.4% class imbalance.
 
 02/10/2026 - Time-order check (01, Section 8) - Found that the rows are in time order, the code to measure it, and the rewritten leakage risk 5 - Ran the code, checked the numbers, and used them to justify the split in notebook 02
 
@@ -54,23 +54,25 @@ Date - Area - What Claude provided - My own work and verification
 
 02/10/2026 - Notebook 02, Section 5 (preprocessing) - Code for the ColumnTransformer and the design explanation - Checked the output has 8 columns with the expected names, and checked the choices against Week 3 slides
 
-13/10/2026 - Notebook 02, Section 7 (baseline diagnostics) - explained cross_val_predict, predict_proba and how to read the confusion matrix - Ran it, checked the confusion matrix counts add up to the 8,000 training rows (271 failures) and that the medians (0.007 and 0.211) match my output, and can explain each line
+13/10/2026 - Notebook 02, Section 7 (baseline diagnostics) - Explained cross_val_predict, predict_proba and how to read the confusion matrix - Ran it, checked the confusion matrix counts add up to the 8,000 training rows (271 failures) and that the medians (0.007 and 0.211) match my output
 
-13/10/2026 - Notebook 02, Section 8 (coefficient interpretation and stability) - AI was also used to explain odds ratios, per-standard-deviation interpretation and correlated features - Checked the coefficients, odds ratios and standard deviations against my output, checked the interpretation against Week 5 slides, and can explain each conclusion
+13/10/2026 - Notebook 02, Section 8 (coefficient interpretation and stability) - Explained odds ratios, per-standard-deviation interpretation and correlated features - Checked the coefficients, odds ratios and standard deviations against my output and the interpretation against Week 5 slides
 
-05/11/2026 - Notebook 03, Section 1 (setup) - Asked AI to show me how to structure the shared setup and evaluate() function and explain how each part works (stratified split, preprocessing pipeline, cross-validation, scoring metrics). Ran the code and checked that the split and baseline scores match notebook 02.
+05/11/2026 - Notebook 03, Section 1 (setup) - Showed me how to structure the shared setup and evaluate() function, with code, and explained each part (stratified split, preprocessing pipeline, cross-validation, scoring metrics) - Ran the code and checked that the split and baseline scores match notebook 02
 
-05/11/2026 - Notebook 03, Section 2 (kNN) - Wrote the grid search and evaluation code myself, with AI explaining how grid search and the kNN parameters work and how to interpret the results. Ran it, checked the results against my output, and can explain why k = 1 was selected and its limitations.
+05/11/2026 - Notebook 03, Section 2 (kNN) - Explained how grid search and the kNN parameters work and how to interpret the results. I wrote the grid search and evaluation code myself. - Ran it, checked the results against my output, and can explain why k = 1 was selected and its limitations
 
-05/11/2026 - Notebook 03, Section 3 (Decision Tree) - Used AI to help me understand the grid search, the tuned settings and the evaluation code. Ran it, checked the results against my output, and can explain the tuned settings and why the scores are close across the top settings.
+05/11/2026 - Notebook 03, Section 3 (Decision Tree) - Code for the grid search and evaluation, and an explanation of the tuned settings - Ran it, checked the results against my output, and can explain the tuned settings and why the scores are close across the top settings
 
-05/11/2026 - Notebook 03, Section 4 (Random Forest) - Used AI to help me understand the grid search, the evaluation code and the draft findings. Ran it, checked the results against my output, and can explain how a forest differs from a single tree and why the F2 gain is modest.
+05/11/2026 - Notebook 03, Section 4 (Random Forest) - Code for the grid search and evaluation, and draft findings - Ran it, checked the results against my output, edited the findings, and can explain how a forest differs from a single tree and why the F2 gain is modest
 
-05/11/2026 - Notebook 03, Section 5 (visualisations) - Used AI to help me understand how out-of-fold precision-recall curves and the confusion matrix are produced, and to explain the draft findings. Ran it, checked that the confusion matrix sums to the 8,000 training rows and matches my output, and can explain why precision-recall curves suit a 3.4% positive class.
+05/11/2026 - Notebook 03, Section 5 (visualisations) - Code for the out-of-fold precision-recall curves and the confusion matrix, and draft findings - Ran it, checked that the confusion matrix sums to the 8,000 training rows and matches my output, and can explain why precision-recall curves suit a 3.4% positive class
 
-05/11/2026 - Notebook 03, Section 6 (error analysis) - Used AI to help me understand how errors are labelled, how the failure mode table and feature comparison work, and what the draft findings mean. Ran it, checked that the outcome counts match the confusion matrix and my output, and can explain why tool wear failures are missed.
+05/11/2026 - Notebook 03, Section 6 (error analysis) - Code for labelling errors, the failure mode table and the feature comparison, and draft findings - Ran it, checked that the outcome counts match the confusion matrix and my output, and can explain why tool wear failures are missed
 
-05/11/2026 - Notebook 03, Section 7 (model settings and draft conclusion) - Used AI to help me build the settings table and to draft and explain the conclusion. Ran it, checked each claim against my results tables, edited the wording, and can explain the limitations and next steps.
+05/11/2026 - Notebook 03, Section 7 (model settings and draft conclusion) - Help building the settings table, and a draft conclusion - Checked each claim against my results tables, edited the wording, and can explain the limitations and next steps
+
+17/11/2026 - Notebook 04, Sections 1–2 (setup and threshold comparison) - Code for the setup and the out-of-fold threshold comparison, and draft findings - Ran it, checked the results against my own output, and edited the findings to match. I can explain why the threshold is chosen on training data (out-of-fold predictions, so the test set is not used for tuning) and why 0.5 was kept.
 
 ## External code
 

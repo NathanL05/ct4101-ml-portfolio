@@ -76,6 +76,10 @@ Date - Area - What Claude provided - My own work and verification
 
 17/11/2026 - Notebook 04, Section 3 (engineered features) - Code for the feature comparison and the threshold re-check, a check of the power and heat dissipation rules in the data, and draft findings - Ran it, checked the results against my own output, and edited the findings to match. I can explain why the engineered features improve the model and why that is also a limitation: they encode the rules that define the failure labels, so part of the gain comes from the labels themselves rather than from new information.
 
+17/11/2026 - Notebook 04, Section 4 (time-ordered split check) - Code for the time-ordered validation and the failure modes by period, an investigation into why fold 2 scores lower, and draft findings - Ran it, checked the results against my own output, and edited the findings to match. I can explain why time-ordered validation scores lower than shuffled cross-validation and what this means for real use.
+
+17/11/2026 - Findings wording (notebooks 01-04) - Suggested shorter wording for the findings sections - I checked every figure against my output, removed claims I could not verify, and edited the text so it is in my own words.
+
 ## External code
 
 No code copied from external sources. Methods follow the CT4101 lecture slides and the scikit-learn and pandas documentation.
